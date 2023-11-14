@@ -7,6 +7,6 @@
     $db_connection = mysqli_connect($hostname, $dbusername, $dbpassword, $dbname);
 
     if (!$db_connection) {
-        die("Somethin went wrong...");
+        die("Something went wrong...");
     }
 ?>
